@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./responsive.css" />
+    <div id="pre-loader">
+      <h1>Scroll slowly and enjoy</h1>
+      <h2 style="opacity: 0">Let's go</h2>
+      <div class="boxes">
+        <div class="box-1"></div>
+        <div class="box-2"></div>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/6996e01132.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
+    <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.1/dist/locomotive-scroll.min.js"></script>
+    <script src="https://unpkg.com/gsap@3/dist/ScrollToPlugin.min.js"></script>
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+    <script defer src="./index.js"></script>
+    <script defer src="./animations.js"></script>
+    <title>Harry Creatives</title>
+  </head>
+  <body>
+    <div id="main-content">
+      <section class="sec first-el" id="intro_sec">
+        <div class="intro-text text-1">
+          <!-- style="opacity: 1" -->
+          <h1>Hi...</h1>
+          <h3>I'm Harry</h3>
+        </div>
+        <div class="intro-text text-2">
+          <h3>Let's listen to</h3>
+          <h1>A Story</h1>
+        </div>
+        <div class="intro-text text-3">
+          <h3>Story of an</h3>
+          <h1>Ambitious boy</h1>
+        </div>
+      </section>
+
+      <section class="sec" id="graphic-design">
+        <div id="graphic-des-sec1">
+          <img
+            src="./img/drawing-harry.png"
+            alt="Graphic Design"
+            id="graphic-des-pic"
+          />
+        </div>
+        <div id="graphic-des-sec2">
+          <h3>He started as a</h3>
+          <h2>Graphic Designer</h2>
+        </div>
+      </section>
+
+      <section id="gdn-container">
+        <h2>Creating Pieces like these</h2>
+        <div class="fromRight logos" style="background: rgb(132, 0, 255)">
+          <h1>Logos</h1>
+          <img src="./img/Porfolio/Logos/Pngs/R-life.png" alt="" />
+          <img src="./img/Porfolio/Logos/Pngs/Main logo.png" alt="" />
+          <img src="./img/Porfolio/Logos/Pngs/Cakes and More.png" alt="" />
+        </div>
+        <div class="fromRight" style="background: #f0ff20">
+          <h1>Illustration</h1>
+          <img src="./img/Porfolio/Graphic Design/illustration.jpg" alt="" />
+        </div>
+        <div class="fromRight" style="background: #d4d3d3">
+          <h1>Book Cover</h1>
+          <img src="./img/Porfolio/Graphic Design/book cover.jpg" alt="" />
+        </div>
+      </section>
+
+      <section class="sec fade-sec" id="web-dev-1">
+        <div id="web-dev-1-main">
+          <div class="slider-container">
+            <div class="left-arrow slider-left">
+              <div class="left-up"></div>
+              <div class="left-down"></div>
+            </div>
+
+            <div class="slider-content">
+              <div class="slider-single">
+                <div
+                  style="
+                    background: none !important;
+                    box-shadow: none !important;
+                  "
+                  class="slider-single-image"
+                >
+                  <div id="heart-container">
+                    <div class="heart-shape"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="slider-single">
+                <a
+                  class="slider-single-image"
+                  href="https://cryptocred.harrycreatives.com/"
+                  target="blank"
+                >
+                  <img src="./img/Porfolio/web dev/Crypto Cred.webp" alt="2"
+                /></a>
+              </div>
+
+              <div class="slider-single">
+                <a
+                  class="slider-single-image"
+                  href="https://earthjoysbazaar.com/"
+                  target="blank"
+                >
+                  <img
+                    class="slider-single-image"
+                    src="./img/Porfolio/web dev/EJB.webp"
+                    alt="3"
+                /></a>
+              </div>
+
+              <div class="slider-single">
+                <a
+                  class="slider-single-image"
+                  href="https://kentingwoodwork.ca/"
+                  target="blank"
+                >
+                  <img
+                    class="slider-single-image"
+                    src="./img/Porfolio/web dev/Kenting.webp"
+                    alt="4"
+                /></a>
+              </div>
+            </div>
+
+            <div class="right-arrow slider-right">
+              <div class="right-up glow"></div>
+              <div class="right-down glow"></div>
+            </div>
+          </div>
+        </div>
+        <div id="web-dev-1-desc">
+          <h3>Then he fell in love with</h3>
+          <h2>Web Development</h2>
+        </div>
+      </section>
+
+      <section class="sec fade-sec" id="web-dev-loading">
+        <h3 class="loader-text1">He wasn't going to stop</h3>
+        <h3 class="loader-text2">Graphic Design</h3>
+        <h3 class="loader-text3">WordPress</h3>
+        <h3 class="loader-text4">PHP and MySQL</h3>
+        <h3 class="loader-text5">and More</h3>
+      </section>
+
+      <section class="sec sec-fade" id="react">
+        <div id="react-portfolio">
+          <div id="react-desc">
+            <h3>Then he found React</h3>
+          </div>
+          <div id="react-slider">
+            <a href="https://burger-builder.harrycreatives.com/" target="blank"
+              ><img src="./img/Porfolio/web dev/burger-builder.png" alt=""
+            /></a>
+          </div>
+        </div>
+        <div id="react-pic">
+          <img src="./img/amazed-harry.png" alt="Amazed" />
+        </div>
+      </section>
+
+      <section class="sec sec-fade" id="more-knowledge">
+        <div id="mk-main-sec-1">
+          <h3>He got more and more knowledge</h3>
+        </div>
+        <div id="mk-main-sec-2">
+          <div id="mk-sec1">
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+            <lottie-player
+              src="./assets/download2.json"
+              background="transparent"
+              speed="1"
+              class="lottie-cloud"
+              loop
+              autoplay
+            ></lottie-player>
+          </div>
+          <div id="mk-sec2">
+            <img class="mk-pic" src="./img/meditating-harry.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section class="sec" id="contact">
+        <div id="contact-row1">
+          <h2>Let's continue this story together</h2>
+        </div>
+        <div id="contact-row2">
+          <img src="./img/searching-harry.png" alt="harry-searching" />
+          <button class="call-to-action">to be continued</button>
+        </div>
+      </section>
+
+      <div id="modal" class="modal-contact hidden-modal">
+        <!-- <div class="modal-bg"></div> -->
+        <form id="contact-form" action="./contact.php" method="POST">
+          <input type="text" name="firstName" placeholder="Your Name" />
+          <input type="email" name="mail" placeholder="Your Email" />
+          <input type="text" name="message" placeholder="Any message for me" />
+          <button name="submit" value="submit" type="submit">Submit</button>
+          <strong class="close-modal">&#10006;</strong>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
+
+<script>
+  const form = document.querySelector(".call-to-action");
+  const modal = document.querySelector(".modal-contact");
+  const closeModal = document.querySelector(".close-modal");
+
+  form.addEventListener("click", () => {
+    modal.classList.toggle("hidden-modal");
+    modal.classList.toggle("shown-modal");
+  });
+
+  closeModal.addEventListener("click", () => {
+    modal.classList.toggle("hidden-modal");
+    modal.classList.toggle("shown-modal");
+  });
+
+  window.onload = function () {
+    document.querySelector("#pre-loader h1").style.opacity = 0;
+    document.querySelector("#pre-loader .boxes").style.opacity = 0;
+    document.querySelector("#pre-loader h2").style.opacity = 1;
+    setTimeout(() => {
+      document.querySelector("#pre-loader").style.opacity = 0;
+      setTimeout(() => {
+        document.querySelector("#pre-loader").style.display = "none";
+      }, 500);
+    }, 500);
+  };
+</script>
